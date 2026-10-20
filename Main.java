@@ -15,6 +15,9 @@ public class Main {
         dog.bark();
         cat.meow();
 
+        dog.treat();
+        dog.fetch();
+        
         dog.feed();
         cat.play();
 
