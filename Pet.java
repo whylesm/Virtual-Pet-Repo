@@ -42,6 +42,10 @@ public class Pet {
         hunger = Math.min(100, hunger + 10);
     }
 
+    public void adopt() {
+        System.out.println("You adopted " + getName());
+    }
+
 	/**
 	Prints out the status of the pet's hunger and happiness
 	*/
